@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaksi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="fottttt.png" alt="Logo Perpustakaan" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="transaksi.html" class="active">Transaksi</a></li>
+                    <li><a href="profil.html">Profil</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="form-section">
+            <h2>Form Transaksi</h2>
+            <form id="formTransaksi">
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" placeholder="Masukkan nama" required>
+                <label for="judul">Judul Buku:</label>
+                <input type="text" id="judul" name="judul" placeholder="Masukkan judul buku" required>
+                <button type="submit" class="btn">Simpan</button>
+            </form>
+        </section>
+        <section class="table-section">
+            <h2>Daftar Transaksi</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nama</th>
+                        <th>Judul Buku</th>
+                        <th>Tanggal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Data transaksi akan ditambahkan melalui JavaScript -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 Perpustakaan Gueee |  Ali Akbar Badu Rahman</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
